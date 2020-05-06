@@ -1,0 +1,392 @@
+.projectMainHome {
+  margin: 0 50px;
+  font-size: 18px;
+}
+
+.projectMainHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectMainSubdetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+  padding: 10px;
+}
+hr {
+  border-color: #fbd800;
+}
+
+.filter {
+  background-color: #ffffff !important;
+  border: 0px !important;
+  color: rgb(0, 0, 0) !important;
+  border-radius: 5px !important;
+  padding-left: 4px !important;
+}
+
+/* .projectMainSubdetails span {
+  border-radius: 8px;
+  width: 25%;
+  padding: 8px 10px;
+} */
+
+/* .projectMainSubdetails button {
+  border-radius: 10px;
+  background-color: #282832 !important;
+  border: 1px solid #fbd800 !important;
+  color: white !important;
+  box-shadow: none;
+} */
+/* .projectMainSubdetails button:hover {
+  background-color: #fbd800 !important;
+  color: black !important;
+} */
+.projectMainHomeNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .projectMainHomeNav button {
+  border-radius: 10px;
+  background-color: #282832 !important;
+  border: 1px solid #fbd800 !important;
+  color: white !important;
+  box-shadow: none;
+  margin-top: 5px;
+} */
+/* .projectMainHomeNav button:hover {
+  background-color: #fbd800 !important;
+  color: black !important;
+} */
+
+/* .btn-det {
+  margin-right: 5px;
+  border-radius: 10px;
+  background-color: #282832 !important;
+  border: 1px solid #fbd800 !important;
+  color: white !important;
+}
+.btn-det-yellow {
+  margin-right: 5px;
+  border-radius: 10px;
+  background-color: #fbd800 !important;
+  border: 1px solid #fbd800 !important;
+  color: black !important;
+} */
+
+/* .btn-det:disabled,
+.btn-det[disabled] {
+  margin-right: 5px;
+  border-radius: 10px;
+  background-color: #282832 !important;
+  border: 1px solid #fbd800 !important;
+  color: white !important;
+}
+
+.btn-det:hover {
+  background-color: #fbd800 !important;
+  color: black !important;
+} */
+
+.detailsGridWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 10px;
+}
+.detailsGridWrapper .grid {
+  /* border: 1px solid #fbd800; */
+  /* background-color: #282832; */
+
+  /* border-radius: 15px; */
+}
+.detailsGridWrapper .grid h5 {
+  text-align: center;
+}
+
+.detForm {
+  margin: 15px;
+}
+
+.detForm .input-field {
+  margin: 12px;
+
+  height: 50px;
+}
+.detForm input[type='text'] {
+  padding: 0px;
+}
+/* input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea.materialize-textarea { */
+/* color: white !important; */
+/* border-right: 1px solid #9c9c9d !important;
+  padding: 0 2px !important;
+  border-radius: 0px 20px 20px 0px !important;
+  transition: all 0.3s linear 0s !important; */
+/* } */
+/* input[type='text']:not(.browser-default):focus:not([readonly]),
+input[type='email']:not(.browser-default):focus:not([readonly]),
+input[type='password']:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  color: white !important;
+  border-color: var(--main-logo-color);
+  box-shadow: none; */
+/* border: none !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid var(--main-logo-color) !important; */
+/* } */
+
+/* input[type='text']:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type='email']:not(.browser-default):focus:not([readonly]) + label,
+input[type='password']:not(.browser-default):focus:not([readonly]) + label {
+  background-color: transparent !important;
+  color: #ec407a !important;
+} */
+/* label {
+  color: white !important;
+} */
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  color: white !important;
+  -webkit-text-fill-color: white;
+  box-shadow: 0 0 0px 1000px #282832 inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+  -webkit-box-shadow: 0 0 0px 1000px #282832 inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+} */
+
+.map {
+  /* width: 360px; */
+  /* height: 360px; */
+  /* background-color: grey; */
+  margin-top: 30px;
+}
+
+.usersList {
+  height: 220px;
+  overflow-y: scroll;
+  padding: 6px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  margin-right: 10px;
+  border-radius: 10px;
+  background: #b9b5b5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #282832;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(34, 34, 34) 832;
+}
+
+.Modal {
+  position: absolute;
+  top: 10vh;
+  left: 295px;
+  right: 295px;
+  bottom: 10vh;
+  background-color: #e4e4e4;
+  color: black;
+  border: none !important;
+  padding: 30px;
+}
+.ModalRoles {
+  position: absolute;
+  top: 70px;
+  left: 325px;
+  right: 325px;
+  bottom: 60px;
+  background-color: #e7dcdc;
+  color: black;
+  border: none !important;
+  padding: 30px;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(32, 27, 27, 0.658);
+  z-index: 100;
+}
+.waves-effect {
+  position: static;
+}
+
+.Dropdown-control {
+  color: white !important;
+  background-color: rgba(53, 45, 45, 0.658) !important;
+  border: none !important;
+}
+
+.defaultList {
+  padding: 1px 2px;
+}
+
+.rolesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+button {
+  font-size: 14px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  height: 9i;
+}
+
+@media only screen and (max-width: 1300px) {
+  .Modal {
+    position: absolute;
+    /* top: 60px; */
+    left: 135px;
+    right: 135px;
+    /* bottom: 50px; */
+    background-color: #e4e4e4;
+    color: black;
+    border: none !important;
+    padding: 30px;
+  }
+  .ModalRoles {
+    position: absolute;
+    top: 70px;
+    left: 155px;
+    right: 155px;
+    bottom: 60px;
+    background-color: #e4e4e4;
+    color: black;
+    border: none !important;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* * {
+    font-size: 16px;
+  } */
+  .project-main-home {
+    margin: 0 20px;
+  }
+  .detailsGridWrapper {
+    display: block;
+    /* grid-template-columns: 1fr;
+    grid-gap: 10px; */
+    width: 60%;
+    margin: auto;
+  }
+  .dashboard {
+    width: 90%;
+  }
+  .detForm {
+    margin: 0px;
+  }
+  .detailsGridWrapper .grid {
+    height: 900px;
+    margin-bottom: 10px;
+  }
+  .Modal {
+    position: absolute;
+    /* top: 60px; */
+    left: 65px;
+    right: 65px;
+    /* bottom: 50px; */
+    background-color: #e4e4e4;
+    color: black;
+    border: none !important;
+    padding: 30px;
+  }
+  .ModalRoles {
+    position: absolute;
+    top: 70px;
+    left: 95px;
+    right: 95px;
+    bottom: 60px;
+    background-color: #e4e4e4;
+    color: black;
+    border: none !important;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  * {
+    font-size: 12px;
+  }
+  button {
+    padding: 0px 10px !important;
+    font-size: 10px !important;
+    height: 35px !important;
+    line-height: 0px !important;
+  }
+  .project-main-home {
+    margin: 0;
+  }
+
+  .detailsGridWrapper {
+    display: block;
+    /* grid-template-columns: 1fr;
+    grid-gap: 10px; */
+    width: 90%;
+    margin: auto;
+  }
+  .detForm {
+    margin: 0px;
+  }
+  .detailsGridWrapper .grid {
+    height: 900px;
+    margin-bottom: 10px;
+  }
+  .Modal {
+    position: absolute;
+    /* top: 60px; */
+    left: 15px;
+    right: 15px;
+    /* bottom: 50px; */
+    background-color: #e4e4e4;
+    color: black;
+    border: none !important;
+    padding: 30px;
+  }
+  .ModalRoles {
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    right: 25px;
+    /* bottom: 60px; */
+    background-color: #e4e4e4;
+    color: black;
+    border: none !important;
+    padding: 10px;
+  }
+  .rolesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+  }
+}
